@@ -9,4 +9,12 @@ public class Piano {
     this.name = name;
   }
 
+  public String getType(){
+    return this.type;
+  }
+
+  public String getName(){
+    return this.name;
+  }
+
 }
