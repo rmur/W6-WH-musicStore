@@ -8,7 +8,7 @@ Fortepiano fortepiano;
 
 @Before
 public void before(){
-  fortepiano = new Fortepiano("Grand", 88);
+  fortepiano = new Fortepiano("Oak", "Dark-brown", "Grand", 88);
 }
 
 @Test
@@ -19,6 +19,16 @@ public void testFortepiano(){
 @Test
 public void testKeyNumbers(){
   assertEquals(88, fortepiano.returnKeys());
+}
+
+@Test
+public void testMaterial(){
+  assertEquals("Oak", fortepiano.getMaterial());
+}
+
+@Test
+public void testColor(){
+  assertEquals("Dark-brown", fortepiano.getColor());
 }
 
 }

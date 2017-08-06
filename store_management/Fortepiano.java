@@ -1,10 +1,11 @@
 package store_management;
 
-public class Fortepiano {
+public class Fortepiano extends Instrument {
   private int keyboardKeys;
   private String type;
 
-  public Fortepiano(String type, int keyboardKeys) {
+  public Fortepiano(String material, String color,String type, int keyboardKeys) {
+    super( material, color );
     this.keyboardKeys = keyboardKeys;
     this.type = type;
 
