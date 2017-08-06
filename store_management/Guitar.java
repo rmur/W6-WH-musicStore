@@ -1,4 +1,5 @@
 package store_management;
+import behaviours.*;
 
 public class Guitar extends Instrument{
   private int strings;
@@ -9,6 +10,10 @@ public class Guitar extends Instrument{
     this.name = name;
     this.strings = strings;
     
+  }
+
+  public String playInstrument(){
+    return "Tuc-tuc-tuc";
   }
 
   public String getName(){

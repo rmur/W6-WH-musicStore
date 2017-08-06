@@ -1,4 +1,5 @@
 package store_management;
+import behaviours.*;
 
 public class Fortepiano extends Instrument {
   private int keyboardKeys;
@@ -9,6 +10,10 @@ public class Fortepiano extends Instrument {
     this.keyboardKeys = keyboardKeys;
     this.type = type;
 
+  }
+
+  public String playInstrument(){
+    return "Param-pam-pam";
   }
 
   public String returnType(){
