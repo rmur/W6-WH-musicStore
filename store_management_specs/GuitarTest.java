@@ -21,4 +21,13 @@ public void testStringsNumber(){
   assertEquals(7, guitar.getStrings());
 }
 
+@Test 
+public void testGuitarColor(){
+  assertEquals("brown", guitar.getColor());
+}
+
+@Test
+public void testGuitarMaterial(){
+  assertEquals("wood", guitar.getMaterial());
+}
 }
