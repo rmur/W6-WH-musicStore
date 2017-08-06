@@ -9,5 +9,13 @@ public class Guitar {
     this.strings = strings;
   }
 
+  public String getName(){
+    return this.name;
+  }
+
+  public int getStrings(){
+    return this.strings;
+  }
+
 
 }
