@@ -1,13 +1,21 @@
 package store_management;
 
 public abstract class Instrument{
-  protected String color;
-  protected String material;
-  protected Boolean adjustment;
+  String color;
+  String material;
 
-  public Instrument(String color, String material){
-      this.color = color;
+
+  public Instrument(String material, String color){
       this.material = material;
-      this.adjustment = adjustment;
+      this.color = color;
+  
+  }
+
+  public String getMaterial(){
+    return this.material;
+  }
+
+  public String getColor(){
+     return this.color;
   }
 }

@@ -8,7 +8,7 @@ Guitar guitar;
 
 @Before
 public void before(){
-  guitar = new Guitar("Fender", 7);
+  guitar = new Guitar("wood", "brown","Fender", 7);
 }
 
 @Test
