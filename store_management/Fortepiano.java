@@ -10,5 +10,13 @@ public class Fortepiano {
 
   }
 
+  public String returnType(){
+    return this.type;
+  }
+
+  public int returnKeys(){
+    return this.keyboardKeys;
+  }
+
 
 }
