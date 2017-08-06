@@ -1,4 +1,4 @@
-package store_management
+package store_management;
 
 public interface Playable {
   
