@@ -1,7 +1,7 @@
 package store_management;
-import behaviours.*;
+import behaviours.* ;
 
-public class Guitar extends Instrument{
+public class Guitar extends Instrument implements Playable {
   private int strings;
   private String name;
 

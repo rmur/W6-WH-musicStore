@@ -1,7 +1,7 @@
 package store_management;
 import behaviours.*;
 
-public class Fortepiano extends Instrument {
+public class Fortepiano extends Instrument implements Playable {
   private int keyboardKeys;
   private String type;
 

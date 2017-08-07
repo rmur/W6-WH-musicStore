@@ -1,6 +1,6 @@
-package store_management;
+package behaviours;
 
 public interface Sellable{
  
-  public int calculateMarkup(int buyPrice, int sellPrice);
+  int calculateMarkup();
 }

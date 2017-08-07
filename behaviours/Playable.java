@@ -1,7 +1,7 @@
-package store_management;
+package behaviours;
 
 public interface Playable {
 
-  public String playInstrument();
+  String playInstrument();
   
 }
